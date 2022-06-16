@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans';
+  width: 100%;
+  height: 100vh;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 5px 16px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  width: 180px;
+  font-size: 16px;
+}
+
+.btn-light {
+  color: #000;
+  background: #fff;
+}
+
+.btn-dark {
+  color: #fff;
+  background: #000;
+}
+
+.btn-white {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-light:hover {
+  background: #fafafa;
+}
+
+.btn-dark:hover {
+  background: rgb(68, 68, 68);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 140px;
+  box-shadow: 0 1px 10px rgb(192, 192, 192);
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header ul img {
+  width: 50px;
+}
+
+header ul li {
+  margin-left: 27px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header ul li .navigation:hover {
+  color: #00754a;
+}
+
+header ul li .find-store {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+main .main-container {
+  padding: 0 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .grid {
+  margin-top: 30px;
+  display: flex;
+}
+
+main .grid.grid-reverse {
+  flex-direction: row-reverse;
+}
+
+main .grid .description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 100px;
+  align-items: center;
+}
+
+main .grid h1 {
+  margin-bottom: 45px;
+}
+
+main .grid p {
+  font-size: 19px;
+  margin-bottom: 45px;
+}
+
+main .grid .image {
+  width: 50%;
+}
+
+main .grid .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.title-dark { color: #1E3932 }
+.title-white { color: #fff }
+.p-white { color: #fff }
+.bg-blue { background: #41B6E6; }
+.bg-gray { background: #D4E9E2 }
+.bg-pink { background: #F06464 }
+.bg-green { background: #9BF5B4 }
+
+.normal-title {   
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.big-title {
+  font-size: 50px;
+  font-weight: 700;
+  width: 100%;
+}
+
+main .main-description {
+  margin-top: 65px;
+  width: 47%;
+  text-align: center;
+}
+
+main .main-description a {
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main .main-description p {
+  font-weight: 600;
+  margin-top: 30px;
+  font-size: 14px;
+}
